@@ -3,6 +3,12 @@ import cardStyle from "./stylesheets/Card.module.css"
 
 export const DrinkInput = () => {
 
+    const drinkInfo = {
+        buyerName: "",
+        drinkFormula: "",
+        drinkName: "", 
+    };
+
     const handleCreate = () => {
         
     }
