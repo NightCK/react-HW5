@@ -1,0 +1,11 @@
+.btnPrimary {
+    background-color:#1491ef;
+    padding: 12px, 32px;
+    color:#ffffff;
+    width: 120px;
+    height: 40px;
+}
+
+.textfieldNormal {
+    height: 40px;
+}

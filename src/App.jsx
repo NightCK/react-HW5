@@ -1,36 +1,21 @@
 import React from "react";
-import { Card } from "./Card";
+import { DrinkInput } from "./Card";
 
-// e 是 event 參數的意思
 export default function App() {
-  // const handleClick = () => {
-  //   console.log("Clicked Me!")
-  // }
-
-  // const handleChange = () => {
-  //   console.log("I am changing!")
-  // }
-
-  // const handleDelete = () => {console.log("Delete Me!")}
-
-
-
-  return (
-    // 常見 event:onClick, onChange
-    // 裡面的人決定什麼時候要做，外面的人決定要做什麼。
+  return(
 
     <div>
-      <Card>
-        This is a card
-      </Card>
+      <DrinkInput>訂購人</DrinkInput>
     </div>
 
-
-    // <div className="">
-    //   <Card onDelete={handleDelete}></Card>
-    //   <input type="text" onChange={handleChange}></input>
-    //   <button onClick={handleClick}> Click Me!</button>
-    //   {/* handleClick 稱為 callback function */}
-    // </div>
-  );
+  )
 }
+
+
+// HW5 筆記：
+// e 是 event 參數的意思。
+// 常見 event:onClick, onChange。
+// 裡面的人決定什麼時候要做，外面的人決定要做什麼。
+// handleClick 稱為 callback function。
+// onUpdate && 是有收到這個 props 才執行的意思。
+// Conditional rendering，語法範例：editable ? : "Cannot edit"，如果不能 editable，就印出 Cannot edit。
